@@ -1,0 +1,40 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #6b6d62;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+
+.clock-container {
+  text-align: center;
+  background: #d4c1c1;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.time {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.date {
+  font-size: 1.25rem;
+  color: #ccc;
+}
+
+@media (max-width: 600px) {
+  .time {
+    font-size: 2.25rem;
+  }
+
+  .date {
+    font-size: 1rem;
+  }
+}
